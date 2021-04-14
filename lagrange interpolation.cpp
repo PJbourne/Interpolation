@@ -44,7 +44,7 @@ void lg(){
 
                     NUM *= x - X[j];
                     DEN *= X[i] - X[j];
-                    cout << " " << NUM << " \t " << DEN << " \t i " << i << " \t j " << j << "\n";
+                   // cout << " " << NUM << " \t " << DEN << " \t i " << i << " \t j " << j << "\n";
             }
         }
         L[i]= NUM / DEN;
@@ -63,9 +63,9 @@ for(int l=0; l<n; l++){
 void read(){
     cout << "Entre o numero de pontos: ";
     cin >> n;
-    cout << "Entre com os valores X e Y separados por espaço e presse ENTER: \n";
+    cout << "Entre com os valores X e Y separados por espaÃ§o e presse ENTER: \n";
     for(i=0; i<n; i++){
-        cout << i <<" º  \t";
+        cout << i <<" Âº  \t";
         cin >> X[i] >> Y[i];
     }
     cout << "\nEntre com o X desejado: ";
